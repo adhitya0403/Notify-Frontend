@@ -4,7 +4,7 @@ import { useNavigate } from "react-router";
 const LandPage = () => {
   const navigate = useNavigate();
   return (
-    <div className="bg-[url(/bg2.jpg)] bg-cover bg-center w-full h-screen flex items-center justify-center">
+    <div className="bg-[url(/bg2.jpg)] bg-cover bg-center w-full h-full flex items-center justify-center">
       <nav className="fixed top-2 flex w-full px-4 justify-between items-center">
         <div
           className="font-test text-[2rem] md:text-[3.2rem] text-white stroke-black stroke-3 cursor-pointer"

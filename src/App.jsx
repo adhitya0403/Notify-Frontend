@@ -13,7 +13,7 @@ import OAuth from "./components/OAuth.jsx";
 const App = () => {
   const [active, setActive] = useState("tasks");
   return (
-    <div>
+    <div className="w-full h-[100dvh] overflow-hidden">
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<LandPage />} />

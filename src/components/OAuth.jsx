@@ -26,7 +26,7 @@ const OAuth = () => {
   }, []);
 
   return (
-    <div className="h-[100vh] w-full flex justify-center items-center">
+    <div className="h-full w-full flex justify-center items-center">
       <Toaster />
       <span className="text-3xl text-gray-400">Loading...</span>
     </div>

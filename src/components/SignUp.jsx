@@ -53,7 +53,7 @@ const SignUp = () => {
   };
 
   return (
-    <div className="h-[100vh] w-full bg-white flex justify-center items-center">
+    <div className="h-full w-full bg-white flex justify-center items-center">
       <Toaster />
       <div className="flex flex-col items-center w-[21rem] md:w-[26rem] p-8 gap-4 shadow-sm shadow-gray-400 rounded-lg">
         <h1 className="text-2xl mb-2">Sign up</h1>

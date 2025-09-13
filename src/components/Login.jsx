@@ -46,9 +46,9 @@ const Login = () => {
   };
 
   return (
-    <div className="h-[100vh] w-full bg-white flex justify-center items-center">
+    <div className="h-full w-full bg-white flex justify-center items-center">
       <Toaster />
-      <div className="flex flex-col items-center w-[95%] p-8 gap-4 shadow-sm shadow-gray-400 rounded-lg">
+      <div className="flex flex-col items-center w-[21rem] md:w-[26rem] p-8 gap-4 shadow-sm shadow-gray-400 rounded-lg">
         <h1 className="text-2xl mb-2">Login</h1>
         <div className="flex flex-col w-full gap-3">
           <div className="flex w-full flex-col">

@@ -11,7 +11,7 @@ const Home = ({ category,setActive, active}) => {
   return (
     <>
       {!showLimit ? (
-        <div className="w-full h-screen grid grid-cols-[auto_1fr] grid-rows-[auto_1fr]">
+        <div className="w-full h-full grid grid-cols-[auto_1fr] grid-rows-[auto_1fr]">
           <div className="top-0 row-span-2">
             <SideBar active={active} setActive={setActive} />
           </div>

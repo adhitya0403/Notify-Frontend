@@ -21,7 +21,7 @@ const SideBar = ({ active, setActive }) => {
   };
 
   return (
-    <div className="bg-white h-screen  w-[5rem] 2xl:w-[12em] border-gray-600 border-r-1 hidden flex-col items-center pt-[1rem] text-white gap-[4rem] lg:flex sticky --webkit-sticky top-0">
+    <div className="bg-white h-full  w-[5rem] 2xl:w-[12em] border-gray-600 border-r-1 hidden flex-col items-center pt-[1rem] text-white gap-[4rem] lg:flex sticky --webkit-sticky top-0">
       <h1 className="font-test text-6xl text-black hidden 2xl:block">Notify</h1>
       <h1 className="font-test text-6xl text-black 2xl:hidden">N</h1>
       <div className="h-full w-full flex flex-col items-center justify-between pb-[1rem]">
