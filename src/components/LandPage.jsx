@@ -21,9 +21,9 @@ const LandPage = () => {
       </nav>
       <div className="flex flex-col items-center gap-5">
         <div className="flex flex-col items-center font-test text-white text-[3rem] md:text-[6rem]">
-          <p className="border-1">Your</p>
-          <p className="border-1">Tasks and Notes</p>
-          <p className="border-1">Manager</p>
+          <p className="stroke-black [text-stroke-width:1px] [text-stroke-color:black]">Your</p>
+          <p className="stroke-black [text-stroke-width:1px] [text-stroke-color:black]">Tasks and Notes</p>
+          <p className="stroke-black [text-stroke-width:1px] [text-stroke-color:black]">Manager</p>
         </div>
         <button
           className="w-[8rem] h-[3.2rem] border-white border-1 text-white font-poppins md:w-[10rem] rounded-4xl md:h-[3.5rem] text-[1rem] hover:bg-white hover:text-[#110f0d] cursor-pointer"
