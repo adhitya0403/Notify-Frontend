@@ -20,7 +20,7 @@ const LandPage = () => {
         </button>
       </nav>
       <div className="flex flex-col items-center gap-5">
-        <div className="flex flex-col items-center font-test text-[#110f0d] text-[3rem] md:text-[6rem]">
+        <div className="flex flex-col items-center font-test text-white text-[3rem] md:text-[6rem]">
           <p>Your</p>
           <p>Tasks and Notes</p>
           <p>Manager</p>
