@@ -8,9 +8,6 @@ import { useNavigate } from "react-router";
 import toast, { Toaster } from "react-hot-toast";
 import GoogleButton from "./GoogleButton";
 
-
-
-
 const SignUp = () => {
   const [check, setCheck] = useState(false);
   const [username, setUserName] = useState("");
@@ -21,7 +18,6 @@ const SignUp = () => {
   const [loading, setLoading] = useState(false);
   const [exist, setExist] = useState(false);
   const navigate = useNavigate();
-  
 
   const handleSignUp = async () => {
     valid.isLength(password, { min: 6 }) ? setPass(false) : setPass(true);
@@ -49,7 +45,7 @@ const SignUp = () => {
   };
 
   const handleGoogle = () => {
-    window.location.href =`${import.meta.env.VITE_BACKEND_URL}/auth/google`
+    window.location.href = `${import.meta.env.VITE_BACKEND_URL}/auth/google`;
   };
 
   return (
@@ -57,6 +53,10 @@ const SignUp = () => {
       <Toaster />
       <div className="flex flex-col items-center w-[21rem] md:w-[26rem] p-8 gap-4 shadow-sm shadow-gray-400 rounded-lg">
         <h1 className="text-2xl mb-2">Sign up</h1>
+        <p className="text-[0.85rem] text-gray-600 text-center">
+          We recommend signing up with your Google account for a faster
+          experience.
+        </p>
         <div className="flex flex-col w-full gap-4">
           <input
             type="text"

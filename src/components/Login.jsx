@@ -7,7 +7,6 @@ import valid from "validator";
 import toast, { Toaster } from "react-hot-toast";
 import GoogleButton from "./GoogleButton";
 
-
 const Login = () => {
   const [check, setCheck] = useState(false);
   const [email, setEmail] = useState("");
@@ -50,6 +49,10 @@ const Login = () => {
       <Toaster />
       <div className="flex flex-col items-center w-[21rem] md:w-[26rem] p-8 gap-4 shadow-sm shadow-gray-400 rounded-lg">
         <h1 className="text-2xl mb-2">Login</h1>
+        <p className="text-[0.85rem] text-gray-600 text-center">
+          For the best experience, we recommend signing in with your Google
+          account.
+        </p>
         <div className="flex flex-col w-full gap-3">
           <div className="flex w-full flex-col">
             <input
@@ -84,6 +87,7 @@ const Login = () => {
               </span>
             )}
           </div>
+
           {!loading ? (
             <button
               className="w-full h-[2.5rem] bg-blue-500 mt-3 text-white cursor-pointer"
