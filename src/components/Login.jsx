@@ -49,9 +49,8 @@ const Login = () => {
       <Toaster />
       <div className="flex flex-col items-center w-[21rem] md:w-[26rem] p-8 gap-4 shadow-sm shadow-gray-400 rounded-lg">
         <h1 className="text-2xl mb-2">Login</h1>
-        <p className="text-[0.85rem] text-gray-600 text-center">
-          For the best experience, we recommend signing in with your Google
-          account.
+        <p className="text-[0.85rem] text-red-700 bg-red-50 border border-red-200 rounded-md p-2 text-center">
+          Email login is currently unavailable. Please use Google to continue.
         </p>
         <div className="flex flex-col w-full gap-3">
           <div className="flex w-full flex-col">
